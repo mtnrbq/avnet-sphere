@@ -1,0 +1,19 @@
+= My amazing diagram doco
+:imagesdir: .\\media
+:imagesoutdir: .\\media
+
+[graphviz]
+....
+....
+
+[plantuml, target=diagram-classes, format=png]   
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....

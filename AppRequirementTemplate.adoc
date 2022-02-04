@@ -1,0 +1,21 @@
+= Azure Sphere IoT Application Requirements
+Robert Mawston - MSFT
+:toc:
+
+== Descriptions
+== Sensors & I/O Supported
+=== Buttons
+=== GPIO
+== Cloud Features
+=== Device Twins
+* Twin #1
+
+=== Direct Methods
+* Direct Method #1
+
+=== Telemetry
+* Telemetry Properties
+* Telemetry item #1
+* Telemetry item #2
+
+== Revision History

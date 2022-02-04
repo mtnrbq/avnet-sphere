@@ -1,0 +1,24 @@
+= Azure Sphere IoT Application Requirements : Indoor Air Quality Monitor
+Robert Mawston - MSFT
+:toc:
+
+== Description
+The indoor air quality monitor is used to monitor particulates in the atmosphere, including pm2.5 sized particles. +
+The solution retrofits connectivity to an Ikea _VINDRIKTNING_ {empty}footnote:[https://www.ikea.com/au/en/p/vindriktning-air-quality-sensor-50498243/]  PM2.5 air quality sensor.
+
+== Sensors & I/O Supported
+=== Buttons
+=== GPIO
+== Cloud Features
+=== Device Twins
+* Twin #1
+
+=== Direct Methods
+* Direct Method #1
+
+=== Telemetry
+* Telemetry Properties
+* Telemetry item #1
+* Telemetry item #2
+
+== Revision History

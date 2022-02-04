@@ -1,0 +1,20 @@
+= My graphviz diagram
+:kroki-fetch-diagram: true
+:imagesdir: images
+:data-uri: true
+
+[graphviz]
+....
+digraph D {
+
+    A [shape=diamond]
+    B [shape=box]
+    C [shape=circle]
+    x [shape=circle]
+
+    A -> B [style=dashed, color=grey]
+    A -> C [color="black:invis:black"]
+    A -> D [penwidth=5, arrowhead=none]
+    A -> x [style=dashed, color=grey]
+}
+....
